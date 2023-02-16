@@ -30,25 +30,6 @@ miframe=Frame()
 # Para dejar el frame dentro de la raiz se debe empaquetar usando metodo pack()
 miframe.pack()    # Lo deja fijo en modo estandar
 
-# miframe.pack(side="right")  deja fijo el frame al borde derecho de la raiz
-# miframe.pack(side="left")  deja fijo el frame al borde izquierdo de la raiz
-# miframe.pack(side="top")  deja fijo el frame al borde superior de la raiz
-# miframe.pack(side="bottom")  deja fijo el frame al borde inferior de la raiz
-# miframe.pack(side="right", anchor="s") deja fijo el frame a la derecha y abajo
-# miframe.pack(side="right", anchor="n") deja fijo el frame a la derecha y arriba
-# miframe.pack(side="left", anchor="s") deja fijo el frame a la izquierda y abajo
-# miframe.pack(side="left", anchor="n") deja fijo el frame a la izquierda y arriba
-#miframe.pack(side="left", anchor="n")
-
-# miframe.pack(fill="x")  Para redimensionar el frame horizontalmente
-#miframe.pack(fill="x")
-
-# miframe.pack(fill="y", expand="True")  Para redimensionar el frame verticalmente
-#miframe.pack(fill="y", expand="True")
-
-# miframe.pack(fill="both", expand="True")  Para redimensionar el frame en ambos sentidos
-#miframe.pack(fill="both", expand="True")
-
 # Se debe configurar el tamaño del frame utilizando metodo config()
 # El tamaño de la raiz se adecua al tamaño del frame
 miframe.config(width="650", height="350")
