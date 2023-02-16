@@ -7,7 +7,7 @@ from tkinter import *
 raiz=Tk()
 
 # Para poner un titulo en la ventana
-raiz.title("Mi primera interfaz grafica")
+raiz.title("Mi primera interfaz grafica - Para Validar Git")
 
 # Para poder redimensionar una ventana utilizar el metodo resizable(par1,par2)
 # donde par1 puede ser (0 o False) o (1 o True) - Par1 corresponde al ancho (width)
