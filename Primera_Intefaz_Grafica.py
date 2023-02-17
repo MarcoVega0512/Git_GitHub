@@ -7,7 +7,7 @@ from tkinter import *
 raiz=Tk()
 
 # Para poner un titulo en la ventana
-raiz.title("Mi primera interfaz grafica - Rama Principal")
+raiz.title("Mi primera interfaz grafica - Rama Nueva")
 
 # Para poder redimensionar una ventana utilizar el metodo resizable(par1,par2)
 # donde par1 puede ser (0 o False) o (1 o True) - Par1 corresponde al ancho (width)
@@ -35,7 +35,7 @@ miframe.pack()    # Lo deja fijo en modo estandar
 miframe.config(width="650", height="350")
 
 # Para que frame se visualize cambiamos el color de fondo distinto al color de fonde de la raiz
-miframe.config(bg="red")
+miframe.config(bg="greed")
 
 # Para configurar un borde y un relieve en el frame
 # para poder ver resultado el frame no debe poder redimensionar - miframe.pack()
