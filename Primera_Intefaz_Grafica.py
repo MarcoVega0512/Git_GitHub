@@ -35,7 +35,7 @@ miframe.pack()    # Lo deja fijo en modo estandar
 miframe.config(width="650", height="350")
 
 # Para que frame se visualize cambiamos el color de fondo distinto al color de fonde de la raiz
-miframe.config(bg="greed")
+miframe.config(bg="green")
 
 # Para configurar un borde y un relieve en el frame
 # para poder ver resultado el frame no debe poder redimensionar - miframe.pack()
