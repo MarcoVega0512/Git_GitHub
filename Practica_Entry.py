@@ -7,6 +7,9 @@ from tkinter import *
 # Crear un objeto y se instancia con la clase Tk() - se crea la raiz de la interfaz
 raiz=Tk()
 
+# Para poner un titulo en la ventana
+raiz.title("Empezando con GitHub - Rama primaria")
+
 # Crear un objeto y se instancia con la clase Frame() - se crea el frame dentro de la raiz
 # y se define un tamaño del frame (ancho y alto)
 miFrame=Frame(raiz, width=1200,height=600)
