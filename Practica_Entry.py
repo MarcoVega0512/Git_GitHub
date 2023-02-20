@@ -8,7 +8,11 @@ from tkinter import *
 raiz=Tk()
 
 # Para poner un titulo en la ventana
+<<<<<<< HEAD
 raiz.title("Empezando con GitHub - Rama primaria")
+=======
+raiz.title("Empezando con GitHug - Rama Secundaria")
+>>>>>>> 2008c82 (Se agrega un titulo a la aplicacion asociado a rama secundaria)
 
 # Crear un objeto y se instancia con la clase Frame() - se crea el frame dentro de la raiz
 # y se define un tamaño del frame (ancho y alto)
