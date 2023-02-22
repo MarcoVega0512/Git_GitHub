@@ -8,7 +8,7 @@ from tkinter import *
 raiz=Tk()
 
 # Para poner un titulo en la ventana
-raiz.title("Curso Git y GitHub - Cambio Directo en GitHub")
+raiz.title("Curso Git y GitHub - Conexion Via SSH")
 
 # Crear un objeto y se instancia con la clase Frame() - se crea el frame dentro de la raiz
 # y se define un tamaño del frame (ancho y alto)
