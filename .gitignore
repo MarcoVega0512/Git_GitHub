@@ -1,0 +1,4 @@
+# iconos e imagenes que no queremos en repositorio
+*.jpg
+*.png
+*.ico
